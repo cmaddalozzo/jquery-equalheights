@@ -1,20 +1,13 @@
 /*
  * jQuery Equal Heights 1.0
  *
- * Copyright (c) 2012 Curtis Maddalozzo, yellowpencil.com
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- *
  * A simple plugin to resize a set of elements to the same height as the tallest
  * element.
  *
  */
- */
 ;(function($){
     var window_loaded = false;
-    $.fn.extend({
-      equalHeights = function( options ) {
+    $.fn.equalHeights = function( options ) {
 
       // Create some defaults, extending them with any options that were provided
       var settings = $.extend( {
@@ -76,5 +69,4 @@
         return target;
       })(this);
     };
-  })
 })( jQuery );
