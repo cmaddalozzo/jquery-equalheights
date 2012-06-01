@@ -1,4 +1,4 @@
-jquery-equalheights
+jQuery Equal Heights
 ===================
 
-jquery-equalheights
+A simple plugin to resize a set of elements to the same height as the tallest element.
